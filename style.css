@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+.header{
+    max-width: 1500px;
+    max-height: 70px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+li,a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    cursor: pointer;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.container-text{
+    max-width: 500px;
+    padding-top: 200px;
+}
+.container{
+    display: flex;
+    gap:70px;
+}
+.container p{
+    text-align: center;
+    font: 2em sans-serif;
+    padding-bottom: 30px;
+}
+.content{
+    width: 1349px;
+    height: 700px;
+    background-color: #DCFFEB;
+}
+.content p{
+    padding: 150px 100px ;
+    font: 1.5em sans-serif;
+}
+.content-flex{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.content-flex img{
+    max-width: 370px;
+}
+.footer-content h2{
+    font-size: 15px;
+    font-weight: bold;
+    max-width: 200px;
+}
+.footer-content p{
+    font-size: 12px;
+    color: #cad4ce;
+}
+.footer-content{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.footer-content img{
+   width: 130px;
+   height: 110px;
+   padding-left: 70px;
+}
+.footer-phone{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.footer-phone h2{
+    font-size: 15px;
+    font-weight: bold;
+    max-width: 145px;
+}
+.footer-phone p{
+    font-size: 12px;
+    color: #cad4ce;
+}
+.footer-phone img{
+    width: 120px;
+    height: 100px;
+    padding-left: 40px;
+}
+.footer-time{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.footer-time p{
+    font-size: 12px;
+    color: #cad4ce;
+}
+.footer-time h2{
+    font-size: 15px;
+    max-width: 90px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.footer-mail{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.footer-mail img {
+    width: 80px;
+    height: 60px;
+    padding-left: 30px;
+}
+.footer-mail p{
+    font-size: 12px;
+    color: #cad4ce;   
+}
+.footer-mail h2 {
+    font-size: 15px;
+    color: rgb(235, 58, 58);
+}
